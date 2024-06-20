@@ -1,0 +1,130 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+body {
+  background-image: url('./images/zhongj-bg.jpg');
+}
+
+#bigbox {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#banner {
+  width: 100px;
+  font-size: 0px;
+}
+
+#banner img {
+  width: 1000px;
+  height: 500px;
+}
+
+nav {
+  background-color: #CCD0D9;
+  width: 1000px;
+  height: 60px;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #020C16;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1a9be6;
+}
+
+
+#main {
+  height: 490px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: burlywood;
+}
+
+#main_left {
+  width: 300px;
+  display: inline-block;
+  background-color: burlywood;
+  float: left;
+  font-family: STKaiti;
+}
+
+h2 {
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #03151F;
+  color: #CCD0D9;
+}
+
+#main_left img {
+  width: 300px;
+}
+
+#main_left p {
+  margin-left: 10px;
+  line-height: 40px;
+}
+
+#main_left span {
+  font-weight: bold;
+}
+
+#main_right {
+  position: relative;
+  width: 680px;
+  margin-left: 20px;
+  display: inline-block;
+  height: 200px;
+  font-family: STKaiti;
+}
+
+#main_right img {
+  position: absolute;
+  width: 400px;
+  right: 0px;
+  top: 30px;
+  height: 400px;
+}
+
+#main_right p {
+  width: 400px;
+  display: inline-block;
+  margin-left: 5px;
+  text-indent: 32px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+#lvxing {
+  background-color: burlywood;;
+  width: 1000px;
+}
+
+#lvxing div {
+  font-size: 0px;
+}
+
+#picture {
+  font-size: 0px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+
+
+
+
