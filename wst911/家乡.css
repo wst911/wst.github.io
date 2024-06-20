@@ -1,0 +1,93 @@
+*{
+    /* 盒子模型设置 */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('./images/zhongj-bg.jpg');
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; 
+}
+.middle{
+    width: 3610px;
+    height: 430px;
+    animation: switch 5s ease-out infinite;
+}
+/* 关键帧动画的简单应用，用以翻阅页面的照片，具有一定趣味性 */
+@keyframes switch {
+    
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -1205px;
+	}
+	70%, 100% {
+		margin-left: -2405px;
+    }
+}
+.middle img{
+    width:1200px;
+    height: 100%;
+}
+/* 页眉 */
+header{
+    height: 100px;
+    width: 1200px;
+    background:#669a98;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom{/* flex布局 */
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    padding: 20px;
+    background: #fff6ef;
+    justify-content: space-between;
+}
+.left{
+    width: 20%;
+}
+.left1{
+    width: 100%;
+}
+.left1>img{
+    width: 100%;
+}
+.right{
+    width:75%;
+    padding-top: 30px;
+}
+h3{
+    color: #669a98;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.right1{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #669a98;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
